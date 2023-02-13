@@ -1,0 +1,2 @@
+flask[all]==2.2.2
+pytest==7.2.1

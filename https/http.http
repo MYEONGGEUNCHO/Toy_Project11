@@ -1,0 +1,32 @@
+###
+GET http://127.0.0.1:5000/hello
+
+### 
+GET http://127.0.0.1:5000/register
+
+### 회원가입
+POST http://127.0.0.1:5000/register
+
+{
+    "username": 1
+    , "password": 1234
+}
+
+### 로그인 페이지
+GET http://127.0.0.1:5000/auth/login
+
+### 로그인 페이지
+POST http://127.0.0.1:5000/auth/login
+
+{
+    "username": 1
+    , "password": 1234
+}
+
+### 게시글
+POST http://127.0.0.1:5000/create
+
+{
+    "title": 4,
+    "body": 44
+}
