@@ -8,8 +8,7 @@
             "name": "Flask: Debug 서버 실행",
             "type": "python",
             "request": "launch",
-            // "module": "flask",
-            "program": "${workspaceFolder}\\src",
+            "program": "${workspaceFolder}/src/app/__init__.py",
             "console": "integratedTerminal",
             "args": [
                 "flask",
