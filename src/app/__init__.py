@@ -36,13 +36,13 @@ def create_app(test_config=None):
     def hello():
         return 'Hello, World!'
     
-    import db
+    from app import db
     db.init_app(app)
     
-    import auth
+    from app import auth
     app.register_blueprint(auth.bp)
     
-    import blog
+    from app import blog
     app.register_blueprint(blog.bp)
     app.add_url_rule('/', endpoint='index')
 
